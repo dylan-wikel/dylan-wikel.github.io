@@ -1,1 +1,77 @@
+body {
+  margin: 0;
+  padding: 30px 15px;
+  background: #d8d2c3;
+  color: #222;
+  font-family: "Book Antiqua", Palatino, "Palatino Linotype", serif;
+}
 
+main {
+  width: min(720px, 100%);
+  margin: 0 auto;
+  padding: 24px;
+  box-sizing: border-box;
+  background: #fffdf5;
+  border: 4px double #3d3d3d;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+}
+
+.tagline {
+  margin: 8px 0 0;
+  font-style: italic;
+}
+
+.profile-photo {
+  display: block;
+  width: 220px;
+  max-width: 80%;
+  margin: 24px auto 14px;
+  border: 6px ridge #777;
+}
+
+.contact-links {
+  margin: 16px 0 28px;
+  text-align: center;
+}
+
+a {
+  color: #0000cc;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #663399;
+}
+
+a:hover {
+  background: #ffff99;
+}
+
+section {
+  margin-top: 26px;
+  padding: 16px;
+  background: #f4efe3;
+  border: 1px solid #777;
+}
+
+h2 {
+  margin-top: 0;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #777;
+}
+
+footer {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 0.85rem;
+}
